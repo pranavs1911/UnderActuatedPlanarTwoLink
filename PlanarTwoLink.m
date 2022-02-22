@@ -8,14 +8,6 @@ classdef PlanarTwoLink < handle
     % Affiliation: ROAR @ Columbia
     % Date:        5/1/2019
     
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    %ATTENTION SPRING 2020 Class
-    %Don't do anythign to me.
-    %All missing fucntions are in UnderActuatedPlanarTwoLink.m
-    %It just inherits from this class.
-    %Good luck!
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
-    
     properties
         Link      % link lengths; a vector.
         COM       % location of center of mass; between 0-1; percentage of each full link length; a vector.
